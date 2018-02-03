@@ -1,0 +1,22 @@
+.draggable {
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.text-right {
+	color: red;
+}
+
+.window-nav {
+	background-color: black;
+    height: 5vh;
+}
+
+#desktop {
+    background-image: url(/images/powerlvl-shi.jpg);
+    background-size: cover;
+    background-color: indianred;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}

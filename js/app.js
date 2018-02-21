@@ -1,13 +1,10 @@
 // Allows you to close any "window" where the id of the div and close button match.
 const closeThis = (e) => {
-  // console.log(e.currentTarget.id)
-  const window = e.currentTarget.id
-  document.getElementById(window).style.display = 'none'
+console.log('hide')
+  $(".window").hide()
 }
 
 $(".close-window").on('click',closeThis)
-
-
 
 
 

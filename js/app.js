@@ -1,4 +1,22 @@
-console.log("running")
+// Allows you to close any "window" where the id of the div and close button match.
+const closeThis = (e) => {
+  // console.log(e.currentTarget.id)
+  const window = e.currentTarget.id
+  document.getElementById(window).style.display = 'none'
+}
+
+$(".close-window").on('click',closeThis)
+
+
+
+
+
+
+
+
+
+
+
 
 //<!-- THIS IS FOR THE COOL DRAGGING AND RESIZING EFFECT -->
 // target elements with the "draggable" class

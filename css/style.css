@@ -3,10 +3,6 @@
     overflow-y: scroll;
 }
 
-.text-right {
-    color: red;
-}
-
 .window-nav {
     background-color: black;
     height: 5vh;
@@ -21,14 +17,19 @@
     overflow: hidden;
 }
 
-#dock-bar {
+.dock-bar {
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 20;
-    /* position: fixed; */
-    /* bottom: 0;  */
+    white-space: nowrap;
     
 }
 
 .fa-3x {
     color: blanchedalmond
 }
+
+.close-window {
+    color: red;
+    
+}
+

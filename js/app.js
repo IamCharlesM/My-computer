@@ -1,10 +1,17 @@
 // Allows you to close any "window" where the id of the div and close button match.
 const closeThis = (e) => {
-console.log('hide')
-  $(".window").hide()
+// console.log('hide')
+  $("#profile").hide()
 }
 
+const openThis = (e) => {
+  // console.log('show')
+  $("#profile").show()
+} 
+
 $(".close-window").on('click',closeThis)
+
+$(".fa-user-circle ").on('click', openThis)
 
 
 
